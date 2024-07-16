@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/light_sensor"
+        android:title="LightSensor"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gravity_sensor"
+        android:title="GravitySensor"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/accelerometer_sensor"
+        android:title="AccelerometerSensor"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/step_counter_sensor"
+        android:title="StepCounter"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gyroscope_sensor"
+        android:title="GyroscopeSensor"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/magnetic_sensor"
+        android:title="MagneticSensor"
+        app:showAsAction="never"/>
+
+</menu>
+    <!--Marcel Parzyszek4p-->

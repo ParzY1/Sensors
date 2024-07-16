@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MagneticSensorActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/magnetic_sensor_name"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="35sp"
+        android:text="Magnetic sensor"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/magnetic_sensor_readings"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="35sp"
+        android:text="0"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+    <!--Marcel Parzyszek4p-->
